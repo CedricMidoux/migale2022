@@ -2,6 +2,4 @@
 
 Ceci est une modif
 
-Je m'appelle Cédric
-
-modif en ligne
+Je m'appelle Cédric Midoux
