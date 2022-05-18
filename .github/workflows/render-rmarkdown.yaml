@@ -21,7 +21,13 @@ jobs:
 
       - uses: r-lib/actions/setup-r@v1
 
-      - uses: r-lib/actions/setup-renv@v1
+      - name: Install rmarkdown
+        run: Rscript -e 'install.packages("rmarkdown")'
+      - name: Install ggplot2
+        run: Rscript -e 'install.packages("ggplot2")'
+      - name: Install dplyr
+        run: Rscript -e 'install.packages("dplyr")'
+
       
       - name: Render Rmarkdown files
         run: |
