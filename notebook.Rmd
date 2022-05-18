@@ -1,6 +1,8 @@
 ---
 title: "notebook"
-output: github_document
+output:
+  html_document:
+    self_contained: true
 ---
 
 ```{r setup, include=FALSE}
