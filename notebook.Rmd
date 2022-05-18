@@ -33,7 +33,7 @@ knitr::kable(head(iris))
 
 ---
 
-```{r setup, message = FALSE, cache=FALSE}
+```{r, message = FALSE, cache=FALSE}
 library("ggplot2")
 library("dplyr")
 ```
